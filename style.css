@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 .introduction{
-    background: url(/images/header-bg.png);
+    background: url(images/header-bg.png);
     background-position: center;
     background-size: cover;
     height: 100vh;
@@ -54,7 +54,7 @@ h1{
 }
 /* Biography */
 .biography{
-    background: url(/images/biography-bg.png);
+    background: url(images/biography-bg.png);
     background-position: center;
     background-size: cover;
     height: 100vh;
@@ -70,7 +70,7 @@ h1{
 }
 /* Latest work */
 .latestWork{
-    background: url(/images/latest-work-bg.png);
+    background: url(images/latest-work-bg.png);
     background-position: center;
     background-size: cover;
     height: 80vh;
@@ -91,7 +91,7 @@ h1{
 /* Client review */
 .clintReview{
     text-align: center;
-    background: url(/images/footer-bg.png);
+    background: url(images/footer-bg.png);
     background-position: center;
     background-size: cover;
 }
