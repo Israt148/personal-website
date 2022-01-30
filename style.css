@@ -68,3 +68,53 @@ h1{
 .biography .btn{
     text-transform: none;
 }
+/* Latest work */
+.latestWork{
+    background: url(/images/latest-work-bg.png);
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+}
+.latestWork .content, .clintReview .content{
+    flex-direction: column;
+}
+.latestWork h1, .clintReview h1{
+    text-align: center;
+    margin-bottom: 3em;
+}
+.latestWork img{
+    width: 30%;
+}
+.latestWork img:nth-child(2){
+    margin: 0px 4%;
+}
+/* Client review */
+.clintReview{
+    text-align: center;
+    background: url(/images/footer-bg.png);
+    background-position: center;
+    background-size: cover;
+}
+.clientDescription{
+    opacity: .6;
+    font-size: 12px;
+    margin: 5px auto 20px auto;
+}
+.review{
+    margin: 10px auto 50px auto;
+}
+.clintReview .btn{
+    text-transform: none;
+    padding: 30px 100px;
+    margin-bottom: 100px;
+    font-size: 1em;
+}
+.msg{
+    font-size: 12px;
+}
+.footerText{
+    opacity: .6;
+    font-size: 12px;
+    margin: 50px auto;
+    text-align: center;
+}
